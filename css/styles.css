@@ -39,7 +39,6 @@ header {
     width: 60px;
     height: 60px;
     object-fit: contain;
-    /* Normally white logo, but placeholder is black for now */
     border-radius: 5px;
 }
 
@@ -95,7 +94,6 @@ nav a.active {
     height: 100%;
     object-fit: cover;
     opacity: 0.8;
-    /* Slight dimming so text is readable */
 }
 
 .text-overlay {
@@ -108,7 +106,6 @@ nav a.active {
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.3);
-    /* Dark overlay */
 }
 
 .welcome-msg {
@@ -120,7 +117,6 @@ nav a.active {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Bottom Categories Section */
 .bottom-categories {
     display: flex;
     justify-content: center;
@@ -156,7 +152,6 @@ nav a.active {
     /* Academic Blue border */
 }
 
-/* Responsive adjustments */
 @media (max-width: 900px) {
     header {
         flex-direction: column;
