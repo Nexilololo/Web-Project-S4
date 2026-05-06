@@ -3,17 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Simple interaction: handle active state for nav links
     const navLinks = document.querySelectorAll('nav a');
-    
+
     navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            // Remove active class from all links
+        link.addEventListener('click', function (e) {
+
             navLinks.forEach(l => l.classList.remove('active'));
-            // Add active class to clicked link
+
             this.classList.add('active');
-            
-            // Note: Since this is currently a static single-page mockup, 
-            // we'll prevent default so the page doesn't jump to top
-            if(this.getAttribute('href') === '#') {
+
+            if (this.getAttribute('href') === '#') {
                 e.preventDefault();
             }
         });
