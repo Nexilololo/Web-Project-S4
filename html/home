@@ -1,12 +1,63 @@
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Title</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFREI Computer Science Department</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../images/1920x1080-black-solid-color-background.jpg" alt="EFREI Logo" class="logo">
+            <h1 class="site-title">COMPUTER SCIENCE<br>DEPARTMENT</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROGRAMS</a></li>
+                <li><a href="#">RESEARCH</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome-section">
+            <div class="banner-box">
+                <img src="../images/1920x1080-black-solid-color-background.jpg" alt="Main Banner" class="banner-img">
+                <div class="text-overlay">
+                    <h2 class="welcome-msg">Welcome to EFREI's Computer Science<br>Department</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottom-categories">
+            <div class="category-card">
+                <h3 class="category-title">OUR PROGRAMS</h3>
+                <img src="../images/1920x1080-black-solid-color-background.jpg" alt="Our Programs" class="category-img">
+            </div>
+            <div class="category-card">
+                <h3 class="category-title">STUDENT PROJECTS</h3>
+                <img src="../images/1920x1080-black-solid-color-background.jpg" alt="Student Projects"
+                    class="category-img">
+            </div>
+            <div class="category-card">
+                <h3 class="category-title">RESEARCH & LABS</h3>
+                <img src="../images/1920x1080-black-solid-color-background.jpg" alt="Research & Labs"
+                    class="category-img">
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/script.js"></script>
 </body>
+
 </html>
