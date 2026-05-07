@@ -8,54 +8,81 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@300;400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
     <header>
-        <div class="logo-container">
+        <a href="home.html" class="logo-container">
             <img src="../images/efrei_logo.png" alt="EFREI Logo" class="logo">
             <h1 class="site-title">COMPUTER SCIENCE<br>DEPARTMENT</h1>
-        </div>
+        </a>
         <nav>
             <ul>
-                <li><a href="#" class="active">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PROGRAMS</a></li>
-                <li><a href="#">RESEARCH</a></li>
+                <li><a href="home.html" class="active">HOME</a></li>
+                <li><a href="programs.html">PROGRAMS</a></li>
+                <li><a href="faculty.html">FACULTY</a></li>
+                <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="welcome-section">
-            <div class="banner-box">
-                <img src="../images/1920x1080-black-solid-color-background.jpg" alt="Main Banner" class="banner-img">
-                <div class="text-overlay">
-                    <h2 class="welcome-msg">Welcome to EFREI's Computer Science<br>Department</h2>
-                </div>
+        <section class="main-banner">
+            <div class="banner-text">
+                <h1>Welcome to EFREI</h1>
+                <p>Empowering the next generation of engineers with cutting-edge technology and innovation.</p>
+            </div>
+            <div class="banner-image-container">
+                <img src="../images/banner.jpg" alt="EFREI Computer Science Department">
             </div>
         </section>
 
-        <section class="bottom-categories">
-            <div class="category-card">
-                <h3 class="category-title">OUR PROGRAMS</h3>
-                <img src="../images/1920x1080-black-solid-color-background.jpg" alt="Our Programs" class="category-img">
+        <section class="slider-container">
+            <div class="slider-track" id="sliderTrack">
+                <div class="slider-item">
+                    <h2>Innovation at its Core</h2>
+                    <p>Discover our state-of-the-art labs and research facilities.</p>
+                </div>
+                <div class="slider-item">
+                    <h2>Student Life</h2>
+                    <p>Join a vibrant community of passionate learners and creators.</p>
+                </div>
+                <div class="slider-item">
+                    <h2>Global Opportunities</h2>
+                    <p>Expand your horizons with our international exchange programs.</p>
+                </div>
             </div>
-            <div class="category-card">
-                <h3 class="category-title">STUDENT PROJECTS</h3>
-                <img src="../images/1920x1080-black-solid-color-background.jpg" alt="Student Projects"
-                    class="category-img">
-            </div>
-            <div class="category-card">
-                <h3 class="category-title">RESEARCH & LABS</h3>
-                <img src="../images/1920x1080-black-solid-color-background.jpg" alt="Research & Labs"
-                    class="category-img">
-            </div>
+            <button class="slider-button prev-button" id="previousButton">&#10094;</button>
+            <button class="slider-button next-button" id="nextButton">&#10095;</button>
+        </section>
+
+        <section class="links-section">
+            <a href="programs.html" class="link-card">
+                <h3 class="card-title">OUR PROGRAMS</h3>
+                <img src="../images/programs.jpg" alt="Our Programs" class="card-image">
+            </a>
+            <a href="projects.html" class="link-card">
+                <h3 class="card-title">STUDENT PROJECTS</h3>
+                <img src="../images/projects.jpg" alt="Student Projects" class="card-image">
+            </a>
+            <a href="research.html" class="link-card">
+                <h3 class="card-title">RESEARCH & LABS</h3>
+                <img src="../images/research.jpg" alt="Research & Labs" class="card-image">
+            </a>
         </section>
     </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="about.html">About & Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 EFREI Computer Science Department. All rights reserved.</p>
+    </footer>
 
     <script src="../js/script.js"></script>
 </body>
